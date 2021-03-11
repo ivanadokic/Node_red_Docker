@@ -23,3 +23,7 @@ This is the command breakdown:
 `--name mynodered`             - give this machine a friendly local name    
 
 `nodered/node-red`               - the image to base it on - currently Node-RED v1.2.0
+
+We get the container up and running listening on port 1880 at http://127.0.0.1:1880/ mapped to port 80 on host looks like this:
+
+

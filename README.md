@@ -26,4 +26,12 @@ This is the command breakdown:
 
 We get the container up and running listening on port 1880 at http://127.0.0.1:1880/ mapped to port 80 on host looks like this:
 
+# Install a node-red docker container
+To install  `node-red docker container` and customize it with the UI dashboard nodes manually we will follow those steps:
 
+Step1. stop our container with `docker stop  mynodered` 
+
+Step2. Restart it with`docker start mynodered`
+
+Since it's not an interactive mode to attach to that container and interact with it, we will need additional commands to start the shell as well to interact with the system:
+`docker exec -it mynodered /bin/bash`

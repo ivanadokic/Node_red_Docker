@@ -39,3 +39,12 @@ We should check if there are some adds-in home directory with `ls` and `clear` i
 
 We also want to use the network package manager command  and install node-red-dashboard:
 `npm install node-red-dashboard`
+If we `exit` , `stop` and `start` this `node`with:
+
+`exit`
+
+`docker stop  mynodered`
+
+`docker start mynodered`
+
+after reloading the page we can see that there is a dashboard node added.

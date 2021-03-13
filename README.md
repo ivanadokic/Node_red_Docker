@@ -35,3 +35,7 @@ Step2. Restart it with`docker start mynodered`
 
 Since it's not an interactive mode to attach to that container and interact with it, we will need additional commands to start the shell as well to interact with the system:
 `docker exec -it mynodered /bin/bash`
+We should check if there are some adds-in home directory with `ls` and `clear` it changing to `data` directory with `cd /data` where we want our actual installation to happen.
+
+We also want to use the network package manager command  and install node-red-dashboard:
+`npm install node-red-dashboard`

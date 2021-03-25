@@ -14,7 +14,7 @@ This is the command breakdown:
 
 `docker run `                          - run this container,
 
-`-it`                                         - attach a terminal session so we can see what is going on
+`-it`                                  - attach a terminal session so we can see what is going on
 
 `-p 1880:1880`                       - connect local port 1880 to the exposed internal port 1880    
 
